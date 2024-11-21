@@ -1,0 +1,58 @@
+/*Selector Universal*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: blueviolet;
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
+article p span{
+    font-size: xx-large;
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.miclase{
+    background-color: yellow;
+}
+#menu{
+    background-color: blue;
+}
+
+h1+p{
+    text-decoration: underline;
+}
+#miP{
+    text-decoration: none;
+}
+.miA:hover, .miB:hover{
+    background-color: black;
+    color: yellow;
+}
+.miA:visited .mib:link{
+    background-color: blue;
+    color: antiquewhite;
+}
+img:hover{
+    opacity: 0;
+}
+footer p::before{
+    background-color: black;
+    content: url(/IMG/487-4877788_logo-geometric-png-transparent-png.png);
+    color: white;
+}
+.miclase::first-line{
+    font-size: 30px;
+    color: red;
+}
+.i{
+    display: flex;
+    display: block;
+}
